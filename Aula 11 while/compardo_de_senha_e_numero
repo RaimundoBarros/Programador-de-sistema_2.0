@@ -1,0 +1,9 @@
+
+nome = input("Digite seu nome : ")
+senha = input("Digite uma senha : ")
+
+while nome == senha:
+    print(" O nome não pode ser igual a senha", )    
+    
+    senha = input("Digite uma senha : ")
+print("Dados Cadastrado com Sucesso : ",)
